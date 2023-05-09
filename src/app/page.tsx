@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import styles from './_Home.module.scss'
-
+import styles from './styles/home.module.scss'
+import Auth from './components/auth'
 export default function Home() {
   return (
-   <div className={styles.Home}>
-    eee
-   </div>
+    <div className={styles.Home}>
+      <Auth/>
+    </div>
   )
 }
